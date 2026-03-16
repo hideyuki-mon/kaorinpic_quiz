@@ -119,7 +119,7 @@ export default function QuizScreen({
               key={person.id}
               src={person.imageUrl}
               alt="この人物は誰でしょう"
-              className={`w-full h-full object-cover object-top transition-opacity duration-500 ${
+              className={`w-full h-full object-contain transition-opacity duration-500 ${
                 imgLoaded ? "opacity-100" : "opacity-0"
               }`}
               onLoad={() => setImgLoaded(true)}

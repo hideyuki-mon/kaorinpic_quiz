@@ -97,7 +97,7 @@ function AnswerCard({ index, answer }) {
         <img
           src={person.imageUrl}
           alt={person.name}
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-contain"
           onError={(e) => {
             e.currentTarget.style.display = "none";
           }}
