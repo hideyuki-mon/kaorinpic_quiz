@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { ChevronRight, CheckCircle2, XCircle, Lightbulb, Loader2 } from "lucide-react";
-import { countryFlagMap } from "../data/persons";
+import { ChevronRight, CheckCircle2, XCircle, Lightbulb, Loader2, Eye } from "lucide-react";
+import { countryFlagMap, countryFacialFeatures } from "../data/persons";
 
 const DIFFICULTY_LABEL = { 1: "かんたん", 2: "ふつう", 3: "むずかしい" };
 const DIFFICULTY_COLOR = {
@@ -31,6 +31,7 @@ export default function QuizScreen({
 
   const progress = ((currentIndex + 1) / total) * 100;
   const isCorrect = selectedAnswer === correctAnswer;
+  const facialFeature = countryFacialFeatures[correctAnswer];
 
   const getOptionStyle = (option) => {
     if (!isAnswered) {
@@ -158,11 +159,32 @@ export default function QuizScreen({
           )}
         </div>
 
-        {/* ヒント（答え後に表示） */}
+        {/* 回答後のパネル */}
         {isAnswered && (
-          <div className="mx-5 mb-4 flex items-start gap-2 p-3 bg-amber-500/10 border border-amber-500/20 rounded-xl">
-            <Lightbulb className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
-            <p className="text-amber-200 text-sm leading-relaxed">{person.hint}</p>
+          <div className="mx-5 mb-5 flex flex-col gap-3">
+            {/* ヒント */}
+            <div className="flex items-start gap-2 p-3 bg-amber-500/10 border border-amber-500/20 rounded-xl">
+              <Lightbulb className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
+              <p className="text-amber-200 text-sm leading-relaxed">{person.hint}</p>
+            </div>
+
+            {/* 顔の傾向説明 */}
+            {facialFeature && (
+              <div className="flex flex-col gap-2 p-4 bg-indigo-500/10 border border-indigo-500/20 rounded-xl">
+                <div className="flex items-center gap-2">
+                  <Eye className="w-4 h-4 text-indigo-400 flex-shrink-0" />
+                  <p className="text-indigo-300 text-xs font-bold uppercase tracking-wide">
+                    {correctAnswer} {person.flag} の顔の傾向
+                  </p>
+                </div>
+                <p className="text-white text-sm font-semibold leading-snug">
+                  {facialFeature.summary}
+                </p>
+                <p className="text-slate-300 text-sm leading-relaxed">
+                  {facialFeature.details}
+                </p>
+              </div>
+            )}
           </div>
         )}
 
