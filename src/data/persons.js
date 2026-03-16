@@ -41,13 +41,13 @@ export const persons = [
   },
   {
     id: 4,
-    name: "タルマン・シャンムガラトナム",
+    name: "ローレンス・ウォン",
     country: "シンガポール",
     flag: "🇸🇬",
     region: "東南アジア",
     difficulty: 3,
-    hint: "シンガポール大統領",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/President_Tharman_Shanmugaratnam.jpg/330px-President_Tharman_Shanmugaratnam.jpg",
+    hint: "シンガポール第4代首相・財務大臣",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Prime_Minister_of_Singapore_Lawrence_Wong_250530-D-PM193-4275_%282025%29.jpg/330px-Prime_Minister_of_Singapore_Lawrence_Wong_250530-D-PM193-4275_%282025%29.jpg",
   },
 
   // ========== 東南アジア ==========
@@ -283,13 +283,13 @@ export const persons = [
   },
   {
     id: 27,
-    name: "ジャグミート・シン",
+    name: "マーク・カーニー",
     country: "カナダ",
     flag: "🇨🇦",
     region: "北米",
     difficulty: 2,
-    hint: "カナダ新民主党党首",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Jagmeet_Singh_in_Brantford_2022_2_%28cropped2%29.jpg/330px-Jagmeet_Singh_in_Brantford_2022_2_%28cropped2%29.jpg",
+    hint: "カナダ首相・元イングランド銀行総裁",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2025-11-14_InaugurationREM_Deux-Montagnes_Mark_Carney.jpg/330px-2025-11-14_InaugurationREM_Deux-Montagnes_Mark_Carney.jpg",
   },
   {
     id: 28,
@@ -305,13 +305,13 @@ export const persons = [
   // ========== 南米 ==========
   {
     id: 29,
-    name: "フェルナンド・ハダジ",
+    name: "ジェラルド・アルクミン",
     country: "ブラジル",
     flag: "🇧🇷",
     region: "南米",
     difficulty: 3,
-    hint: "ブラジル財務大臣・元サンパウロ市長",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Fernando_Haddad_posse_min._da_Fazenda.jpg/330px-Fernando_Haddad_posse_min._da_Fazenda.jpg",
+    hint: "ブラジル副大統領・元サンパウロ州知事",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Alckmin_2024.jpg/330px-Alckmin_2024.jpg",
   },
   {
     id: 30,
@@ -347,13 +347,13 @@ export const persons = [
   // ========== オセアニア ==========
   {
     id: 33,
-    name: "ペニー・ウォン",
+    name: "ジム・チャーマーズ",
     country: "オーストラリア",
     flag: "🇦🇺",
     region: "オセアニア",
     difficulty: 3,
-    hint: "オーストラリア外務大臣",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Penny_Wong_DFAT_official_%28cropped%29.jpg/330px-Penny_Wong_DFAT_official_%28cropped%29.jpg",
+    hint: "オーストラリア財務大臣",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Jim_Chalmers_Jobs_and_Skills_Summit_2022_%28cropped%29.jpg/330px-Jim_Chalmers_Jobs_and_Skills_Summit_2022_%28cropped%29.jpg",
   },
   {
     id: 34,
