@@ -68,8 +68,8 @@ export const persons = [
     flag: "🇵🇭",
     region: "東南アジア",
     difficulty: 3,
-    hint: "フィリピン副大統領",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Vice_President_Sara_Duterte_%28cropped%29.jpg/330px-Vice_President_Sara_Duterte_%28cropped%29.jpg",
+    hint: "フィリピン副大統領・教育長官経験者",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Incoming_Education_Sec._Duterte_and_outgoing_Education_Sec._Briones.jpg/330px-Incoming_Education_Sec._Duterte_and_outgoing_Education_Sec._Briones.jpg",
   },
   {
     id: 7,
@@ -133,7 +133,7 @@ export const persons = [
     region: "中東",
     difficulty: 3,
     hint: "イスラエル元首相・元テレビキャスター",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Yair_Lapid_%28D1237-011%29.jpg/330px-Yair_Lapid_%28D1237-011%29.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Over_The_Ocean_third.jpg/330px-Over_The_Ocean_third.jpg",
   },
 
   // ========== ヨーロッパ ==========
@@ -279,7 +279,7 @@ export const persons = [
     region: "北米",
     difficulty: 2,
     hint: "元アメリカ運輸長官・元南ベンド市長",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pete_Buttigieg%2C_Secretary_of_Transportation.jpg/330px-Pete_Buttigieg%2C_Secretary_of_Transportation.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mayor_Pete_at_Roosevelt_High_School_%2848891405907%29.jpg/330px-Mayor_Pete_at_Roosevelt_High_School_%2848891405907%29.jpg",
   },
   {
     id: 27,
@@ -299,7 +299,7 @@ export const persons = [
     region: "北米",
     difficulty: 2,
     hint: "メキシコ大統領・物理学者",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Claudia_Sheinbaum_in_2025_%283x4_cropped%29.jpg/330px-Claudia_Sheinbaum_in_2025_%283x4_cropped%29.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Claudia_Sheinbaum_%2849503316651%29.jpg/330px-Claudia_Sheinbaum_%2849503316651%29.jpg",
   },
 
   // ========== 南米 ==========
